@@ -19,8 +19,8 @@ public class Video {
         return videoName;
     }
 
-    void doCheckOut() {
-
+    public boolean doCheckOut() {
+        return checkOut;
     }
 
     void doReturn() {
